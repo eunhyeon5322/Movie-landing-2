@@ -84,7 +84,7 @@ figure video {
 figure .text {
   position: absolute;
   right: 5vw;
-  bottom: 0%;
+  bottom: 0;
   transform: translate(0, -50%);
 }
 
@@ -145,8 +145,15 @@ footer {
     display: block;
   }
 
+  figure .text {
+    top: 60%;
+    left: 10px;
+  }
+
   figure .text p {
-    font-size: 15vw;
+    font-size: 10vw;
+    /* margin-top: 50%;
+    margin-left: 5%; */
   }
 
   #snb {
